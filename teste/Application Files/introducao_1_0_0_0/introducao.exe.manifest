@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="introducao.exe" version="1.0.0.0" publicKeyToken="597904e53e5b9df9" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="introducao" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="introducao.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto do UAC
+          Para alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó
+          requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Para utilizar a Virtualização de Arquivos e Registro para manter a compatibilidade com versões anteriores,
+         exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="introducao.exe" size="12760">
+      <assemblyIdentity name="introducao" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>W9TfE658yYUon8M0RLAv8hBPbZfg7+ClIpkrEq6govo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="introducao.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SNCTM202LABF09\Aluno" issuerKeyHash="66b3ed778a969d16d66a86775e8cb422ed5999ce" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xxDEVatSit9LRfRmK0vXBEH39j7ZuZhcrjjitc7F8qg=</DigestValue></Reference></SignedInfo><SignatureValue>BwBurT6Jsy/NCF5nVPetNAQhIaXHiK9c7f/U7DCyrcE5EvoJTsyqNnmkHwQOcQESy4notg49iPh34sEc/mv29ztz/+8qMfhdG5gxOHyRmXP3luDvYBpR/5GwHJmbotDmF/vK03lu+2060PugSqi5c1f36LxwNx0OYqc21QYHUOY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wQoCKO+dK4hu6dsfSlfXwT8sLXE7C1ItXO9doul+HJc2mEVRFrZZq+PM3Hpo74kg1UZjoxYvKb6pD21u7Mj/KIJWavza/kNCL91SaKd4JADZ7nbD1YeRTm1yUIzU6Ut8fgp6i9XbVlkzmFS7MwecQA3WpORyNFxJHIQKVNm2YTE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a8f2c5ceb5e238ae5c98b9d93ef6f74104d74b2b66f4454bdf8a52ab55c410c7" Description="" Url=""><as:assemblyIdentity name="introducao.exe" version="1.0.0.0" publicKeyToken="597904e53e5b9df9" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SNCTM202LABF09\Aluno</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>FrC39buVzKAlTsiipXJCXNAHOdFI50aDPU3ME/Ho3GM=</DigestValue></Reference></SignedInfo><SignatureValue>fdM1gCIQmzvtZ+CkRaiCksVlsqNUfUA11iWI8rpIY2r+BKUgaB/IwhwygHwNZjoTFKC3T0gOEv4WwdhTx4Zjp1Wh1TW/A64kHruwUOybv5x8MSVIGe1D2i269FmHAX8WylqrE8VsIjZnWBe/9e+j0AwrW7/Axm2FYeaPS5tpTew=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wQoCKO+dK4hu6dsfSlfXwT8sLXE7C1ItXO9doul+HJc2mEVRFrZZq+PM3Hpo74kg1UZjoxYvKb6pD21u7Mj/KIJWavza/kNCL91SaKd4JADZ7nbD1YeRTm1yUIzU6Ut8fgp6i9XbVlkzmFS7MwecQA3WpORyNFxJHIQKVNm2YTE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQZUumIjtXmIVNSuvd0E0frzANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAUwBOAEMAVABNADIAMAAyAEwAQQBCAEYAMAA5AFwAQQBsAHUAbgBvMB4XDTI0MDMwNDIwMTIxN1oXDTI1MDMwNTAyMTIxN1owMzExMC8GA1UEAx4oAFMATgBDAFQATQAyADAAMgBMAEEAQgBGADAAOQBcAEEAbAB1AG4AbzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwQoCKO+dK4hu6dsfSlfXwT8sLXE7C1ItXO9doul+HJc2mEVRFrZZq+PM3Hpo74kg1UZjoxYvKb6pD21u7Mj/KIJWavza/kNCL91SaKd4JADZ7nbD1YeRTm1yUIzU6Ut8fgp6i9XbVlkzmFS7MwecQA3WpORyNFxJHIQKVNm2YTECAwEAATANBgkqhkiG9w0BAQsFAAOBgQC19DKc/nAZtlCaxTT6JP96Fx238hOfsIovREd1k93FJwsm2lIvsanFLOmO1ld0fwwhsuVzPMsW4MgLJs+zczsFTxeDyES05gY5vtiBZ6bJbe2fVqvl9aYLU2ACw/JKWBsvZFlAe3R8p8yRZMcH9KDzovWxG93OVJWG4TVjxJb9bw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
